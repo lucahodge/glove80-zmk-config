@@ -60,6 +60,11 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
         };
+
+        repeat_key: repeat_key {
+            compatible = "zmk,behavior-repeat-key";
+            label = "Repeat Key";
+        };
     };
 
     macros {
@@ -117,7 +122,7 @@
 &kp TAB         &kp Q       &kp W       &kp E        &kp R        &kp T                                                                             &kp Y   &kp U        &kp I        &kp O       &kp P          &kp BSLH
 &kp ESC         &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt RCTRL F  &kp G                                                                             &kp H   &mt RCTRL J  &mt RSHFT K  &mt LALT L  &mt RGUI SEMI  &kp SQT
 &kp EQUAL       &kp Z       &kp X       &kp C        &kp V        &kp B   &kp LSHFT   &kp LCTRL       &kp LGUI    &kp RGUI  &kp RCTRL  &kp RSHFT    &kp N   &kp M        &kp COMMA    &kp DOT     &kp FSLH       &none
-&magic MAGIC 0  &kp F11     &kp F12     &kp LEFT     &kp RIGHT            &lt 4 BSPC  &lt 1 &repeat  &kp LALT    &kp RALT  &kp RET    &lt 4 SPACE          &kp DOWN     &kp UP       &kp LBKT    &kp RBKT       &none
+&magic MAGIC 0  &kp F11     &kp F12     &kp LEFT     &kp RIGHT            &lt 4 BSPC  &lt 1 &repeat_key  &kp LALT    &kp RALT  &kp RET    &lt 4 SPACE          &kp DOWN     &kp UP       &kp LBKT    &kp RBKT       &none
             >;
         };
 
