@@ -134,12 +134,12 @@
 
         symbols {
             bindings = <
-&trans  &trans          &trans  &trans           &trans                                                                                                                                  &trans           &trans             &trans                &trans                 &trans
-&trans  &trans          &trans  &trans           &trans           &trans                                                                            &trans                               &trans           &trans             &trans                &trans                 &trans
-&trans  &kp EXCL        &kp AT  &kp HASH         &kp DOLLAR       &kp PERCENT                                                                       &kp CARET                            &kp AMPERSAND    &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &mt LGUI GRAVE  &trans  &mt LSHFT EQUAL  &mt LCTRL MINUS  &mt LS(LA(LC(LG(LSHFT)))) SEMI                                                    &mt RA(RC(RG(RS(RSHFT)))) BACKSLASH  &mt RCTRL SLASH  &mt LSHFT APOS     &mt RALT LBKT         &mt RGUI RBKT          &trans
-&trans  &kp TILDE       &trans  &kp PLUS         &kp UNDER        &kp COLON                       &trans  &trans  &trans    &trans  &trans  &trans  &kp PIPE                             &kp QUESTION     &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans  &trans          &trans  &trans           &trans                                           &trans  &trans  &trans    &trans  &trans  &trans                                       &trans           &trans             &trans                &trans                 &trans
+&trans  &trans          &trans       &trans           &trans                                                                                                                                  &trans           &trans             &trans                &trans                 &trans
+&trans  &trans          &trans       &trans           &trans           &trans                                                                            &trans                               &trans           &trans             &trans                &trans                 &trans
+&trans  &kp EXCL        &kp AT       &kp HASH         &kp DOLLAR       &kp PERCENT                                                                       &kp CARET                            &kp AMPERSAND    &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &mt LGUI GRAVE  &mt LALT LT  &mt LSHFT EQUAL  &mt LCTRL MINUS  &mt LS(LA(LC(LG(LSHFT)))) SEMI                                                    &mt RA(RC(RG(RS(RSHFT)))) BACKSLASH  &mt RCTRL SLASH  &mt LSHFT APOS     &mt RALT LBKT         &mt RGUI RBKT          &trans
+&trans  &kp TILDE       &kp GT       &kp PLUS         &kp UNDER        &kp COLON                       &trans  &trans  &trans    &trans  &trans  &trans  &kp PIPE                             &kp QUESTION     &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &trans          &trans       &trans           &trans                                           &trans  &trans  &trans    &trans  &trans  &trans                                       &trans           &trans             &trans                &trans                 &trans
             >;
         };
 
@@ -147,7 +147,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                                                    &trans        &trans        &trans       &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans        &trans        &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &kp N7        &kp N8        &kp N9       &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                    &kp N6  &kp N7        &kp N8        &kp N9       &kp N0  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &mt RCTRL N4  &mt RSHFT N5  &mt RALT N6  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp N0  &kp N1        &kp N2        &kp N3       &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans        &trans       &trans  &trans
